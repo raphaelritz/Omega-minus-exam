@@ -16,11 +16,6 @@ I18n::Message examModeActivationMessage(int index);
 // Settings pop-up
 I18n::Message examModeActivationWarningMessage(GlobalPreferences::ExamMode mode, int line);
 
-// Exam mode behaviour
-KDColor examModeColor(GlobalPreferences::ExamMode mode);
-bool appIsForbiddenInExamMode(App::Descriptor::ExaminationLevel appExaminationLevel, GlobalPreferences::ExamMode mode);
-bool exactExpressionsAreForbidden(GlobalPreferences::ExamMode mode);
-
 }
 
 #endif
